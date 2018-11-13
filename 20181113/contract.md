@@ -11,16 +11,34 @@
          
  获取源代码并编译，参考链接：<https://github.com/Bytom/equity>
  
- 编译完了以后我们可以在equity项目下面创建一个合约文件(合约文件最好不带任何后缀名)![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/创建文件.png)
+ 编译完了以后我们可以在equity下执行:
  
- 然后编写合约，我是用vim编译的合约，大家可以自行选择用vim或者编辑器编写合约。如果编译合约的过程中存在问题，请参考合约开发文档：<https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/vim编辑.png>。下图是我在vim中编写的合约。
+     ./equity/equity --help
+    
+  获取合约的命令帮助。返回的截图如下：
+     
+ ![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/帮助命令.png)
  
+图中标的1，2，3，4 分别表示执行命令所带参数的含义。然后在项目下面创建一个合约文件(合约文件最好不带任何后缀名)，如下图：
+
+ ![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/创建文件.png)
  
- ![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/vim编辑.png)
+然后编写合约，我是用vim编译的合约，大家可以自行选择用vim或者编辑器编写合约。如果编译合约的过程中存在问题，请参考合约开发文档：<https://bytom.github.io/mydoc_RPC_call.cn.html>。下图是我在vim中编写的合约。
+
  
- 合约编写完了以后，在对应的目录下面执行合约文件，然后就可以输出下图所示的二进制。说明合约编写成功
- 
- ![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/执行合约.png)
+  ![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/创建合约.png)
+  
+  
+  
+   合约编写完了以后，如果合约编写错误或者存在语法错误，会出现如下图所示的情况，请检查自己编写的合约
+   
+   
+  ![avatar](https://raw.githubusercontent.com/huangxinglong/picture/master/20181113/合约错误.png)
+  
+ 检查无误以后，在对应的目录下面执行合约文件，然后就可以输出下图所示的二进制。说明合约编写成功
+  
+  
+   ![avatar](https://github.com/huangxinglong/picture/raw/master/20181113/编译合约.png)
  
  
  大家有没有发现很简单呢？快点实践起来吧！如果在开发的过程中遇到问题，请在我们的社区联系我们：<https://github.com/Bytom/>
