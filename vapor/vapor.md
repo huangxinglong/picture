@@ -25,6 +25,7 @@
 2. 打开terminal(如果找不到，在搜索框中搜索)，然后输入命令：
 
     ./vapord-darwin_amd64 init --chain_id=vapor --home $HOME/bytom/vapor
+    
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
     示例如下图(命令直接复制上面两条))：
