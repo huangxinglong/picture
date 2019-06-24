@@ -17,7 +17,7 @@
 
 1. 下载安装包进行安装,下载链接：<https://github.com/Bytom/vapor/releases>；
 
-    ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/5.jpg)
+    ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/5.png)
 
     下载完以后进行解压，如下：
     ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/7.jpg)
@@ -25,12 +25,12 @@
 2. 打开terminal(如果找不到，在搜索框中搜索)，然后输入命令：
 
     ./vapord-darwin_amd64 init --chain_id=vapor --home $HOME/bytom/vapor
-    
+
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
     示例如下图(命令直接复制上面两条))：
 
-    ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/8.jpg)
+    ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/8.png)
 
 
 ### 第二步：
@@ -57,11 +57,11 @@
 
 1. 分享自己的账户公钥给为你投票的人，然后让别人为你投票：
 
-![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/6.jpg)
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/6.png)
 
 2. 为你的小伙伴投票：
 
-![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/9.jpg)
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/9.png)
 
 
 
