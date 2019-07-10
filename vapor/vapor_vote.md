@@ -2,7 +2,7 @@
 
 #### 概述
 
-采用 blockstream ElementsProject/Liquid 中 federation 联邦多签发起跨链交易的方式。
+采用类似 blockstream ElementsProject/Liquid 中 federation 联邦多签发起跨链交易的方式。
 federation 收集/监听打入联邦多签地址的交易，然后发起跨链操作。
 ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证，以确保 该交易 已在主链上真实发生。
 同时为了防止回滚（故障或者作弊），可以配置 federation 等待多少次确认之后 才把 主链资产转入侧链/侧链资产转回主链。
