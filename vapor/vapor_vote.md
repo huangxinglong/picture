@@ -56,6 +56,8 @@ ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证�
 
 #### 三. 取消投票
 
+##### api文档地址：<https://github.com/Bytom/vapor/wiki/API-Doc>
+
 ##### 1. 调用build-transaction api构建取消投票交易， 请求参数如下：
 
     {
