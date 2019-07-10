@@ -63,5 +63,12 @@
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/9.png)
 
+3. 开启挖矿(开启以后节点就可以正常出块)
 
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/10.png)
+
+
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/11.png)
+
+4. 区块链浏览器：http://52.82.11.184:8083/nodes
 
