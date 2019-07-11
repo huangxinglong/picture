@@ -2,7 +2,7 @@
 
 #### 概述
 
-采用类似 blockstream ElementsProject/Liquid 中 federation 联邦多签发起跨链交易的方式。
+比原的主侧链采用类似 blockstream ElementsProject/Liquid 中 federation 联邦多签发起跨链交易的方式。
 federation 收集/监听打入联邦多签地址的交易，然后发起跨链操作。
 ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证，以确保 该交易 已在主链上真实发生。
 同时为了防止回滚（故障或者作弊），可以配置 federation 等待多少次确认之后 才把 主链资产转入侧链/侧链资产转回主链。
@@ -10,13 +10,12 @@ ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证�
 
 
 #### 一.锁资产
+
 ##### 1. 将资产打到官方的federaion地址，官方会根据转账地址在侧链创建对应的私钥，用户将主链的钱包信息（助记词，备份文件）导入侧链钱包就可以看到自己的账户余额，且可以进行投票
 
 #### 提示：有了侧链的账户和资产，就可以调用接口进行投票等其他操作；
 
 #### 二. 投票
-
-##### api文档地址：<https://github.com/Bytom/vapor/wiki/API-Doc>
 
 ##### 第一步: 调用build-transaction api构建投票交易：
 
@@ -52,11 +51,9 @@ ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证�
 
 ##### 第三步：签名完成后调用submit-transaction api提交交易
 
-##### 备注：第二步和第三步跟普通的交易签名，提交完全一致。参考vapor api文档
+##### 备注：第二步和第三步跟普通的交易签名，提交完全一致。参考vapor api文档，api文档地址：<https://github.com/Bytom/vapor/wiki/API-Doc>。
 
 #### 三. 取消投票
-
-##### api文档地址：<https://github.com/Bytom/vapor/wiki/API-Doc>
 
 ##### 1. 调用build-transaction api构建取消投票交易， 请求参数如下：
 
@@ -92,6 +89,9 @@ ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证�
 
 ##### 第三步：签名完成后调用submit-transaction api提交交易
 
-##### 备注：第二步和第三步跟普通的交易签名，提交完全一致。参考vapor api文档
+##### 备注：第二步和第三步跟普通的交易签名，提交完全一致。参考vapor api文档,api文档地址：<https://github.com/Bytom/vapor/wiki/API-Doc>。
+
+如果有什么问题，可以在社群里面进行提问。
+
 
 
