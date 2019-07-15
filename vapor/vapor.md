@@ -12,6 +12,18 @@
 
 1. golang语言环境安装，参考： <http://www.runoob.com/go/go-environment.html>。
 2. github地址：<https://github.com/Bytom/vapor>,然后参考readme.md文件进行搭建侧链节点.
+3. 命令：
+
+    make install
+
+    vapord init --chain_id=mainnet
+    
+    vapord node
+
+
+   ./vapord-darwin_amd64 init --chain_id=mainnet --home $HOME/bytom/vapor
+
+    ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
 #### 安装包搭建(这里以苹果电脑为例，window和linux类似)
 
@@ -24,7 +36,7 @@
 
 2. 打开terminal(如果找不到，在搜索框中搜索)，然后输入命令：
 
-    ./vapord-darwin_amd64 init --chain_id=vapor --home $HOME/bytom/vapor
+    ./vapord-darwin_amd64 init --chain_id=mainnet --home $HOME/bytom/vapor
 
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
