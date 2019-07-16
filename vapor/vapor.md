@@ -20,11 +20,6 @@
     
     vapord node
 
-
-   ./vapord-darwin_amd64 init --chain_id=mainnet --home $HOME/bytom/vapor
-
-    ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
-
 #### 安装包搭建(这里以苹果电脑为例，window和linux类似)
 
 1. 下载安装包进行安装,下载链接：<https://github.com/Bytom/vapor/releases>；
