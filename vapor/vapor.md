@@ -51,18 +51,22 @@ Bystack主网启动流程如下：
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/3.jpg)
 
-然后添加微信，发送地址到群主可以领取BTM。领取到BTM以后在交易模块进行新建交易，然后进行跨链转账和投票。
-
-![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/2.jpg)
-
 
 
 
 ### 第三步
 
-1. 分享自己的账户公钥给为你投票的人，然后让别人为你投票：
+1. 获取自己的节点公钥
 
-![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/6.png)
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/3.png)
+
+
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/4.png)
+
+
+
+2. 分享自己的节点公钥给为你投票的人，然后让别人为你投票：
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/4.png)
 
 2. 给共识节点投票：
 
