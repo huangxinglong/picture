@@ -1,10 +1,11 @@
-# vapor跨链交易和投票
+# vapor主网启动流程
 
 
-比原链bysatck开放平台底层依托的侧链测试网落今天正式上线，该链是bytom的侧链(vapor)，它的诞生主要为了提升Bystack的效率以及服务于垂直领域的应用。它全新的混合共识算法和高性能成为他最大的亮点和核心优势。目前基本的开发工作已经完成可以正式对外公测，广大社区开发者和爱好者可以体验跨链交易，共识投票等！
 
 
-下面我们来看一下如何是用跨链交易和进行侧链的共识投票！
+Bystack主网启动流程如下：
+
+## 步骤一：技术操作
 
 ### 第一步: 首先是搭建侧链的测试节点
 
@@ -16,7 +17,7 @@
 
     make install
 
-    vapord init --chain_id=mainnet
+    vapord init --chain_id=testnet
     
     vapord node
 
@@ -31,13 +32,14 @@
 
 2. 打开terminal(如果找不到，在搜索框中搜索)，然后输入命令：
 
-    ./vapord-darwin_amd64 init --chain_id=mainnet --home $HOME/bytom/vapor
+    ./vapord-darwin_amd64 init --chain_id=testnet --home $HOME/bytom/vapor
 
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
     示例如下图(命令直接复制上面两条))：
 
     ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/8.png)
+    
 
 
 ### 第二步：
@@ -66,7 +68,7 @@
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/6.png)
 
-2. 为你的小伙伴投票：
+2. 给共识节点投票：
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/9.png)
 
@@ -77,5 +79,21 @@
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/11.png)
 
-4. 区块链浏览器：<http://52.82.11.184:8083/nodes>
+
+
+## 步骤二：反馈节点信息给比原官方
+
+1. 通过dashboard查看自己的节点公钥并与比原官方沟通，更新投票列表。
+
+ 
+## 步骤三：通过手机进行投票
+
+1. 通过Bycoin手机钱包将比原跨到Vapor上（建议使用Bycoin）
+
+2. 为自己投入100W的比原，社区拉票
+
+
+##  步骤四：收益分红
+
+1. 搭建使用cli工具对支持者进行收益分红
 
