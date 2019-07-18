@@ -36,10 +36,6 @@ Bystack主网启动流程如下：
 
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
-    示例如下图(命令直接复制上面两条))：
-
-    ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/8.png)
-    
 
 
 ### 第二步：
