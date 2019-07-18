@@ -58,15 +58,15 @@ Bystack主网启动流程如下：
 
 1. 获取自己的节点公钥
 
-![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/3.png)
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/10.png)
+
 
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/4.png)
-
 
 
 2. 分享自己的节点公钥给为你投票的人，然后让别人为你投票：
-![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/4.png)
+
 
 2. 给共识节点投票：
 
