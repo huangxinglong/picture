@@ -52,9 +52,14 @@ Bystack主网启动流程如下：
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/3.jpg)
 
 
+### 第三步：
 
 
-### 第三步
+1. 通过Bycoin手机钱包将比原跨到Vapor上（建议使用Bycoin）
+
+2. 为自己投入100W的比原，社区拉票
+
+### 第四步
 
 1. 获取自己的节点公钥
 
@@ -72,7 +77,7 @@ Bystack主网启动流程如下：
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/9.png)
 
-3. 开启挖矿(开启以后节点就可以正常出块)
+3. 开启挖矿(开启以后节点就可以正常出块，并获得奖励)
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/10.png)
 
@@ -86,11 +91,9 @@ Bystack主网启动流程如下：
 1. 通过dashboard查看自己的节点公钥并与比原官方沟通，更新投票列表。
 
  
-## 步骤三：通过手机进行投票
+## 步骤三：在区块链浏览器地址上查询自己的节点出块信息
 
-1. 通过Bycoin手机钱包将比原跨到Vapor上（建议使用Bycoin）
-
-2. 为自己投入100W的比原，社区拉票
+1. 浏览器地址：<http://vapor.blockmeta.com/nodes>
 
 
 ##  步骤四：收益分红
