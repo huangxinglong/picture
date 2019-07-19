@@ -18,7 +18,7 @@ Bystack主网启动流程如下：
 
     make install
 
-    vapord init --chain_id=mainnet
+    vapord init --chain_id=testnet
     
     vapord node
 
