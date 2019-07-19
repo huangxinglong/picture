@@ -18,7 +18,7 @@ Bystack主网启动流程如下：
 
     make install
 
-    vapord init --chain_id=mainnet
+    vapord init --chain_id=testnet
     
     vapord node
 
@@ -33,7 +33,7 @@ Bystack主网启动流程如下：
 
 2. 打开terminal(如果找不到，在搜索框中搜索)，然后输入命令：
 
-    ./vapord-darwin_amd64 init --chain_id=mainnet --home $HOME/bytom/vapor
+    ./vapord-darwin_amd64 init --chain_id=testnet --home $HOME/bytom/vapor
 
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
