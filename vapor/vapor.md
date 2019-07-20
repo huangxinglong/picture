@@ -37,6 +37,25 @@ Bystack测试网启动流程如下：
 
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
+#### 注意事项
+
+1.如果是在服务器搭建的话，需要开通端口号9889。然后进行访问
+
+2.访问的时候需要访问token,如下图:
+  ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/12.jpg)
+
+当出现上图的时候，我们通过命令创建令牌: (服务器需要开通端口号9889)
+
+curl -X POST http://127.0.0.1:9889/create-access-token -d '{"id":"token"}'  
+
+注意: 将127.0.0.1替换成你自己的服务器IP地址。
+
+返回如下:
+
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/13.jpg)
+
+将里面的token字符串放到上面的方框中，就可以请求。
+
 
 ### 第二步：
 
