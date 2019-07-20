@@ -112,6 +112,10 @@ curl -X POST http://127.0.0.1:9889/create-access-token -d '{"id":"token"}'
 
 1. 通过dashboard查看自己的节点公钥和侧链钱包地址与比原官方沟通，更新投票列表。
 
+提示：节点公钥不是账户公钥，千万不能搞错。
+
+![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/4.png)
+
  
 ## 步骤三：在区块链浏览器地址上查询自己的节点出块信息
 
@@ -120,6 +124,7 @@ curl -X POST http://127.0.0.1:9889/create-access-token -d '{"id":"token"}'
 
 ##  步骤四：收益分红
 
-1. 搭建使用cli工具对支持者进行收益分红
+1. 搭建使用cli工具对支持者进行收益分红（目前还在测试，后期会推出)
+
 
 
