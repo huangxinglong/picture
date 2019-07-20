@@ -1,13 +1,13 @@
-# vapor测试网启动流程
+# vapor主网启动流程
 
 
 
 
-Bystack测试网启动流程如下：
+Bystack主网启动流程如下：
 
 ## 步骤一：技术操作
 
-### 第一步: 首先是搭建侧链的测试节点
+### 第一步: 首先是搭建侧链的主网节点
 
 #### 源码搭建
 
@@ -18,7 +18,7 @@ Bystack测试网启动流程如下：
 
     make install
 
-    vapord init --chain_id=testnet
+    vapord init --chain_id=mainnet
     
     vapord node
 
@@ -33,7 +33,7 @@ Bystack测试网启动流程如下：
 
 2. 打开terminal(如果找不到，在搜索框中搜索)，然后输入命令：
 
-    ./vapord-darwin_amd64 init --chain_id=testnet --home $HOME/bytom/vapor
+    ./vapord-darwin_amd64 init --chain_id=mainnet --home $HOME/bytom/vapor
 
     ./vapord-darwin_amd64  node --home $HOME/bytom/vapor
 
