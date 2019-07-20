@@ -79,6 +79,8 @@ curl -X POST http://127.0.0.1:9889/create-access-token -d '{"id":"token"}'
 
 2. 为自己投入100W的比原，社区拉票
 
+参考教程：<https://www.bystack.com/zh/rules/>
+
 ### 第四步
 
 1. 获取自己的节点公钥
