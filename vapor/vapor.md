@@ -42,6 +42,7 @@ Bystack测试网启动流程如下：
 1.如果是在服务器搭建的话，需要开通端口号9889。然后进行访问
 
 2.访问的时候需要访问token,如下图:
+
   ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/12.jpg)
 
 当出现上图的时候，我们通过命令创建令牌: (服务器需要开通端口号9889)
