@@ -112,7 +112,9 @@ curl -X POST http://127.0.0.1:9889/create-access-token -d '{"id":"token"}'
 
 1. 通过dashboard查看自己的节点公钥和侧链钱包地址与比原官方沟通，更新投票列表。
 
+
 提示：节点公钥不是账户公钥，千万不能搞错。
+
 
 ![](https://raw.githubusercontent.com/huangxinglong/picture/master/vapor/4.png)
 
