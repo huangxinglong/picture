@@ -4,7 +4,7 @@
 
 The savings dividend contract means that the project party has initiated a lockout plan (ie, a savings contract and a cash withdrawal contract). The user can freely choose the lock amount to participate in the plan during the preparation period, and can automatically acquire the lock position after the lockout expires. profit. Users can participate in the savings during the preparation period (`dueBlockHeight`), and can obtain the same amount of savings instrument assets by `1:1` according to the contract, and the assets of the user lock (`deposit`) will be placed in the cash withdrawal contract, and The project party cannot be used. When the lockout period (`expireBlockHeight`) arrives, the user can call the cash withdrawal contract to take out the assets that he saved and take it out together with the interest. The schematic is as follows:
 
-![image](/docs/images/diagram.png)
+![image](/docs/images/en-diagram.png)
 
 As can be seen from the above figure, the project party has released a lockout project with a profit of `20%`, in which the savings contract `FixedLimitCollect` locks the `1000` bill assets (`bill`) and the project party will be `200 `A savings asset (`deposit`) is locked into the interest contract. After the project party has released the contract, all users can participate. For example, in the above figure, the `user1` call contract saves `500`, and the `500` savings assets will be locked in the cash withdrawal contract `FixedLimitProfit`, while `user1` gets the `500` ticket assets, and the remaining zeros are changed. Assets will continue to be locked in the savings contract `FixedLimitCollect`, and so on, `user2` and `user3` are the same process until the savings contract has no assets. The cash withdrawal contract `FixedLimitProfit` is roughly the same as the savings contract model, except that the cash withdrawal contract is composed of multiple `UTXO`s, and the user can operate in parallel when withdrawing cash. However, if the face value in the contract cannot support the user to withdraw cash at one time, it needs to be extracted multiple times. For example, `user1` has `500` bill assets, and the total amount of principal and interest that can be obtained is `600`, but the depreciated `UTXO` face value is `500`, then `user1` can only take up to `500` at a time, and the rest `100` needs to construct a transaction to withdraw cash.
 
@@ -167,7 +167,7 @@ program：20055539eb36abcaaf127c63ae20e3d049cd28d0f1fe569df84da3aedb018ca1bf1600
 
 The `DAPP` overall framework model of the original chain describes the general structural model of `DAPP`, combined with the case of the savings dividend contract, the specific process is as follows:
 
-![image](/docs/images/flow.png)
+![image](/docs/images/en-flow.png)
 
 ### DAPP front end
     
