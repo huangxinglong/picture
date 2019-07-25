@@ -79,7 +79,7 @@ The deployment contract transaction template is roughly as follows:
 
 The original `blockcenter` server is the officially developed decentralized plug-in wallet server, which developers can call in accordance with the relevant `API` interface. The `DAPP` overall framework model of the original chain is as follows:
 
-![image](https://raw.githubusercontent.com/huangxinglong/picture/master/blockcenter-docs/images/frame.png)
+![image](https://raw.githubusercontent.com/huangxinglong/picture/master/blockcenter-docs/images/en-frame.png)
 
 
 ## DAPP front end
