@@ -73,7 +73,7 @@ contract contract_name(...) locks valueAmount of valueAsset {
 
 比原的`blockcenter`服务器是官方开发的去中心化插件钱包服务器，开发者可以按照相关`API`接口来调用即可。比原链的`DAPP`总体框架模型如下：
 
-![image](/docs/images/frame.png)
+![image](https://raw.githubusercontent.com/huangxinglong/picture/master/blockcenter-docs/images/frame.png)
    
 ## DAPP前端
     
