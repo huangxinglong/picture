@@ -102,7 +102,8 @@ ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证�
 
 ##### 备注：第二步和第三步跟普通的交易签名，提交完全一致。参考vapor api文档,api文档地址：<https://github.com/Bytom/vapor/wiki/API-Doc>。
 
-如果有什么问题，可以在社群里面进行提问。
+如果有什么问题，可以在微信社群里面进行提问。或者添加WX:youths_1994
+
 
 
 
