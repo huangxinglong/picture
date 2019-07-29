@@ -11,9 +11,20 @@ ElementsProject/Liquid 中还会对 转入侧链交易 进行主链 spv 验证�
 
 #### 一.锁资产
 
+##### 主链转侧链
+
+主链资产转侧链：<https://github.com/Bytom/vapor/wiki/API-Doc#mainchainbytom-to-sidechainvapor>
+
+
+##### 侧链转主链
+
+侧链资产转主链：<https://github.com/Bytom/vapor/wiki/API-Doc#sidechainvapor-to-mainchainbytom>
+
+
 ##### 1. 将资产打到官方的federaion地址，官方会根据转账地址在侧链创建对应的私钥，用户将主链的钱包信息（助记词，备份文件）导入侧链钱包就可以看到自己的账户余额，且可以进行投票
 
 #### 提示：有了侧链的账户和资产，就可以调用接口进行投票等其他操作；
+
 
 #### 二. 投票
 
