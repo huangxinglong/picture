@@ -27,7 +27,7 @@
      "account_id": "bd775113-49e0-4678-94bf-2b853f1afe80", //账户id
      "password": "123456",  //密码
      "reward_ratio": 20,   //分给投票人的获奖比例
-     "mining_address": "sp1qfpgjve27gx0r9t7vud8vypplkzytgrvqr74rwz"    //挖矿地址，用get-mining-address 获取挖矿地址，例如：curl -X POST http://127.0.0.1:9889/get-mining-address 获取
+     "mining_address": "vp1q7muj4wufgpk547rxeaajxelssayg8sfwf4xydw"    //挖矿地址，用get-mining-address 获取挖矿地址，例如：curl -X POST http://127.0.0.1:9889/get-mining-address 获取
     }
     } 
     
