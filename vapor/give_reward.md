@@ -5,7 +5,7 @@
 
 2.切换到cmd/votereward 目录
 
-3.本地安装mysql数据库
+3.本地安装mysql数据库，同时倒入表结构。表结构所在目录：vapor/toolbar/vote_reward/database/dump_reward.sql
 
 4.在cmd/votereward下创建reward.json 文件，如下：
 
