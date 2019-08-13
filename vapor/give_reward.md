@@ -1,13 +1,15 @@
 # 节点发放工具使用方法
 
 
-1.获取vapor的源码，vapor源码地址：<https://github.com/Bytom/vapor>
+1. 获取vapor的源码，vapor源码地址：<https://github.com/Bytom/vapor>
+ 
+2. 合并utxo: 切换到 cmd/utxomerge。参考：<https://github.com/Bytom/vapor/blob/master/cmd/utxomerge/README.md>
 
-2.切换到cmd/votereward 目录
+3. 切换到cmd/votereward 目录
 
-3.本地安装mysql数据库，同时倒入表结构。表结构所在目录：vapor/toolbar/vote_reward/database/dump_reward.sql
+4. 本地安装mysql数据库，同时倒入表结构。表结构所在目录：vapor/toolbar/vote_reward/database/dump_reward.sql
 
-4.在cmd/votereward下创建reward.json 文件，如下：
+5. 在cmd/votereward下创建reward.json 文件，如下：
 
     {
      "node_ip": "http://127.0.0.1:9889", //节点地址,替换成自己的节点位置
@@ -39,8 +41,7 @@
 6000是指区块的起始位置，7200是发收益截止区块的出块位置，将会发放出块在6000~7200这一段的奖励。每次发放奖励完了以后需要记住自己的截止区块，下一次会变成起始位置，然后截止区块加1200的整数倍。
   
   
-  注意：1. 可能需要自己合并utxo；
-       2. 不能重复执行，执行成功一次后就可以了；
+  注意：1. 不能重复执行，执行成功一次后就可以了；
 
 
 
