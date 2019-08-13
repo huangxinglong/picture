@@ -10,6 +10,7 @@
 4. 本地安装mysql数据库，同时倒入表结构。表结构所在目录：vapor/toolbar/vote_reward/database/dump_reward.sql
 
 5. 在cmd/votereward下创建reward.json 文件，如下：    
+
        {
          "node_ip": "http://127.0.0.1:9889", //节点地址,替换成自己的节点位置 
          "chain_id": "mainnet",    //节点网络id(不用变动) 
